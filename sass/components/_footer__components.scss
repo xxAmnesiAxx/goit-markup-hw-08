@@ -1,0 +1,11 @@
+.container-icon {
+    @media screen and (min-width: 1200px) {
+        margin-left: 70px;
+    }
+}
+
+.footer-icon {
+    display: flex;
+    gap: 10px;
+    justify-content: center; 
+}

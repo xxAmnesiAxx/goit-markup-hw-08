@@ -1,0 +1,66 @@
+.subscribe {
+    @media screen and (min-width: 1200px) {
+     margin-left: 93px;
+    }
+   
+}
+
+.subscribe__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 1200px) {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    }
+}
+
+.subscribe__title {
+    font-weight: var(--font-weight2);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color4);
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px){
+    text-align: left;
+    }
+}
+
+.subscribe-form__input {
+    padding: 15px 15px 16px;
+    
+    background-color: var(--color6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    @media screen and (min-width: 768px){
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    }
+    
+    @media screen and (min-width: 1200px){
+    width: 358px;
+    }
+}
+  
+.email__form {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px){
+    margin-bottom: 0;
+    }
+}

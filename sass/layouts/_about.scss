@@ -1,0 +1,32 @@
+.about {
+    display: flex;
+    gap: 30px;
+
+
+}
+  
+.about__text {
+    font-weight: var(--font-weight2);
+    font-size: var(--font-size1);
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color4);
+}
+    
+.about__img {
+    position: relative;
+}
+
+.about__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+  
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 370px;
+    background-color:rgba(47, 48, 58, 0.8);
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section {
+    padding: 60px 0;
+    
+    @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+    }
+}
+
+.section__padding {
+    padding-top: 0;
+    display: none;
+
+    @media screen and (min-width: 1200px){
+    display: block;
+    }
+}
+
+.section__background {
+    background-color: var(--color7);
+}
+
+.section__title {
+    font-weight: var(--font-weight2);
+    font-size: 28px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--color3);
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    font-size: var(--font-size4);
+    line-height: 1.16;
+    }
+}
